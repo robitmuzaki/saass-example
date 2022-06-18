@@ -1,0 +1,8 @@
+$color1: #008648;
+$color2: white;
+$color3: #1b1b1b;
+
+@mixin bw-comb {
+    background-color: $color3;
+    color: $color2;
+}

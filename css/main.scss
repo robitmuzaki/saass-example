@@ -1,0 +1,47 @@
+@import "reset";
+@import "global";
+@import "variable";
+@import "header";
+@import "footer";
+
+main {
+    padding: 50px 0;
+    background: url("../images/main-bg.jpg") center center;
+    .main-content {
+        padding: 30px;
+        color: $color2;
+        display: block;
+        background:  rgba(0, 0, 0, 0.7);
+        width: 500px;
+        margin: 0 auto;
+        h1 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .main-btn {
+            font-weight: bold;
+            display: inline-block;
+            background: $color1;
+            border: none;
+            border-radius: 10px;
+            margin-top: 20px;
+            font-size: 21px;
+            a {
+                color: $color2;
+                text-decoration: none;
+                padding: 15px;
+                display: block;
+            }
+            &:hover {
+                background: $color3;
+            }
+        }
+    }
+}
+
+.github-fork {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
